@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: Arial;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-end;
+    background-color: rgba(199, 202, 238, 0.31);
+    color: #626262;
+}
+header h1{
+    font-size: 32px;
+    letter-spacing: -3px;
+}
+header a{
+    color: #626262;
+    text-decoration: none;
+}
+section{
+    padding: 50px;
+}
+.section__content{
+    width: 1000px;
+    margin: 0 auto;
+}
+section a, .create button{
+    display: inline-block;
+    text-decoration: none;
+
+    transition: transform .3s;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 12px;
+}
+.create .button{
+    width: 50%;
+    margin: 0 auto;
+}
+section a:hover, .create button:hover{
+    transform: scale(1.05);
+}
+.new{
+    margin-bottom: 20px;
+    background-color: #08af24;
+}
+.edit{
+    background-color: #eacd05;
+}
+.info{
+    background-color: #0533ea;
+}
+.delete{
+    background-color: #af081b;
+}
+td{
+    padding: 15px;
+}
+table{
+    width: 100%;
+    border-top: 1px solid rgba(98, 98, 98, 0.29);
+    border-collapse: collapse
+}
+.table__head td{
+    border-bottom: 2px solid rgba(98, 98, 98, 0.42);
+    font-weight: 600;
+}
+.create{
+    border-radius: 12px;
+    padding: 20px;
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid rgba(98, 98, 98, 0.29);
+}
+.create label{
+    font-weight: 600;
+}
+.create input, .create textarea{
+    border: none;
+    border: 2px solid rgba(98, 98, 98, 0.42);
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 12px;
+    transition: border-color .3s;
+}
+.create input:focus, .create textarea:focus{
+    border-color: rgba(98, 98, 98, 0.95);
+}
+.create textarea{
+    height: 100px;
+}
+.text h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top: 1px solid rgba(98, 98, 98, 0.29);
+    padding-top: 10px;
+
+    
+}
+.text{
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgba(98, 98, 98, 0.29);
+}
+.index__form{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+}
+.index__form input{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    background-color: rgba(98, 98, 98, 0.29);
+    outline: none;
+}
+.index__form button{
+    outline: none;
+    width: 10%;
+    border: none;
+    padding: 10px;
+}
